@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lab 1</title>
+  <form>
+
+<!--- text field with req--->
+    <label for="fname">Name</label>                             
+    <input type="text" id="fname" name="fname" placeholder="please enter your name" required maxlength="25"><br><br>
+    <label for="email">E-Mail</label>
+    <input type="email" id="email" name="email" value="test@example.com" required autofocus><br><br>       
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" name="pwd" minlength="6" required><br><br>         
+
+<!---select oper--->
+        <label for="category">Category</label>                  
+        <select id="category" name="category" required>
+          <option value="student">Student</option>
+          <option value="employee">Employee</option>
+          <option value="freelancer" selected>Freelancer</option>
+        </select><br><br>
+
+<!---date input--->
+    EVENT DATE:
+    <input type="date" name="stardate" required><br><br>
+
+<!---radio button--->
+  <input type="radio" name="ticket" value="ticket">1 Ticket  
+  <input type="radio" name="ticket" value="ticket" checked >2 Ticket
+  <input type="radio" name="ticket" value="ticket">3 Ticket<br><br>
+
+  <!---fieldset--->
+  <label>Online payment</label>
+  <input type="checkbox" name="online paymnet" id="online payment" required>
+    <br><br>
+
+    <!----text area--->
+
+    <label for="notes">NOTES:</label>
+    <br/>
+    <textarea rows="6" cols="60" name="description" placeholder="express your comments"></textarea>
+    <br>
+
+    <input type="submit" value="submit">
+
+
+    
+
+  </form>
+</head>
+<body>
+
+</body>
+</html>
